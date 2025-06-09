@@ -14,11 +14,11 @@ This repository contains a simple Octave implementation of a predator-prey model
 The system is defined as:
 
 $$
-\frac{dx}{dt} = x - 0.5 \cdot x \cdot y
+\frac{dx}{dt} = x - 0.5xy
 $$
 
 $$
-\frac{dy}{dt} = -0.75 \cdot y + 0.25 \cdot x \cdot y
+\frac{dy}{dt} = -0.75y + 0.25xy
 $$
 
 
